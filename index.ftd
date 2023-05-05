@@ -1,34 +1,57 @@
 -- import: sarvom.github.io/blog-component/assets
 -- import: sarvom.github.io/blog-component/lib
+-- import: fastn-community.github.io/expand-ds as ds
+
+-- ds.page: Component Library
+site-logo: 
+
+-- ds.page.body:
+
+This document contains various components we have developed using `ftd`
+language.
+
+Below are a few sample components:
+
+-- ds.h3: Blog Component
+
+We have developed the `navbar` component.
 
 -- lib.page:
 
--- lib.pricing-section: Everything at your disposal
-head: Pricing Plans
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
 
--- lib.pricing-card: Trial
-plan-type: Basic
-duration: **14 Days**
-feature-1: 20 messages
-feature-2: Basic AI Algorithms
-feature-3: Email support
+Developing NES emulator in Rust from Scratch.
 
--- lib.pricing-card: Premium
-plan-type: Starter
-duration: **$9 / mo**
-feature-1: 20 messages
-feature-2: Basic AI Algorithms
-feature-3: Email support
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
 
--- lib.pricing-card: Platinum
-plan-type: Pro
-duration: **$90 / mo**
-feature-1: 20 messages
-feature-2: Basic AI Algorithms
-feature-3: Email support
+Developing NES emulator in Rust from Scratch.
 
--- end: lib.pricing-section
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
 
+Developing NES emulator in Rust from Scratch.
+
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
+
+Developing NES emulator in Rust from Scratch.
 
 -- end: lib.page
+
+-- end: ds.page
+
 
