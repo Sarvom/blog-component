@@ -1,51 +1,56 @@
--- import: <user_name>.github.io/<repo_name>/assets
+-- import: sarvom.github.io/blog-component/assets
+-- import: sarvom.github.io/blog-component/lib
+-- import: fastn-community.github.io/expand-ds as ds
 
+-- ds.page: Component Library
 
+-- ds.page.body:
 
--- ds.page: Welcome to your [FASTN site](https://fastn.io/)
+This document contains various components we have developed using `ftd`
+language.
 
--- ftd.column:
-align-self: center
+Below are a few sample components:
 
--- chat.message-left: Yo! I am Amit Upadhyay, CEO of FifthTry, welcome to the new world of FTD.
+-- ds.h3: Blog Component
 
--- ds.markdown: 
+We have developed the `navbar` component.
 
-You reached the right place, and from here let me assure you, your FTD journey is going superfast. 🙂
+-- lib.page:
 
--- end: chat.message-left
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
 
--- chat.message-right:  😊 Liking this chat component?
+Developing NES emulator in Rust from Scratch.
 
--- ds.markdown:
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
 
-[Click here to learn more](https://fifthtry.github.io/bling/chat/)
-👍
+Developing NES emulator in Rust from Scratch.
 
--- end: chat.message-right
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
 
--- end: ftd.column
+Developing NES emulator in Rust from Scratch.
 
--- ds.h1: How to use?
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
 
-It's very simple like making a sandwich. Create new `.ftd` file and just say:
+Developing NES emulator in Rust from Scratch.
 
--- ds.code: `-- ds.page` 
-lang: ftd
-
-\-- ds.page: Your page title goes here
-
-Your page content goes here.
-
-
--- ds.h1: Need sidebar at right side of page?
-
-Here it is, [use this document](https://fifthtry.github.io/doc-site/docs/right-sidebar/).
-
-
--- ds.h1: 👀 Learn FTD and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.dev/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- end: lib.page
 
 -- end: ds.page
+
+

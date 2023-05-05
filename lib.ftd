@@ -1,0 +1,106 @@
+-- import: sarvom.github.io/blog-component/assets
+-- import: sarvom.github.io/outfit-typography
+
+-- component page:
+children c:
+
+-- ftd.column:
+width: fill-container
+types: $outfit-typography.types
+background.solid: $inherited.colors.background.base
+
+-- navbar: Component Library
+
+-- ftd.row:
+width: fill-container
+children: $page.c
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: page
+
+
+
+
+
+
+
+
+
+
+-- component navbar:
+caption title:
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding-horizontal.px: 200
+margin-vertical.px: 20
+background.solid: $inherited.colors.cta-primary.base
+
+-- ftd.text: $navbar.title
+role: $inherited.types.copy-large
+
+-- end: ftd.row
+
+-- end: navbar
+
+
+
+
+
+
+
+
+
+
+-- component blog:
+caption title:
+ftd.image-src pic:
+string date:
+string hashtag:
+string cta-text-1:
+body body:
+
+-- ftd.column:
+width: fill-container
+align-self: center
+align-content: center
+
+-- ftd.column:
+align-content: left
+
+-- ftd.text: $blog.title
+role: $inherited.types.heading-large
+margin-bottom.px: 20
+
+-- ftd.text: $blog.date
+role: $inherited.types.copy-large
+margin-bottom.px: 20
+
+-- ftd.text: $blog.hashtag
+role: $inherited.types.label-large
+margin-bottom.px: 20
+
+-- ftd.image:
+src: $blog.pic
+max-width.fixed.px: 860
+
+-- ftd.text: $blog.body
+role: $inherited.types.label-large
+margin-top.px: 30
+
+-- ftd.text: $blog.cta-text-1
+role: $inherited.types.label-large
+link: /
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: blog
+
+
