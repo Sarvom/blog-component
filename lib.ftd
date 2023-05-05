@@ -41,9 +41,6 @@ padding-horizontal.px: 200
 margin-vertical.px: 20
 background.solid: $inherited.colors.cta-primary.base
 
--- ftd.image:
-src: $assets.files.images.menu.jpg
-
 -- ftd.text: $navbar.title
 role: $inherited.types.copy-large
 
